@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(185, 224, 247);
+}
+h3{
+  color: rgb(64, 128, 211);
+  font-family:cursive;
+}
+p{
+  color: rgb(33, 66, 128);
+}  
+a{
+  padding: 25px;
+  color: royalblue;
+}
+a.active{
+  color:dodgerblue;
+}
+ul{
+  list-style-type: disc; 
+  color: rgb(33, 66, 128);
+  font-size: 20px;
+}
