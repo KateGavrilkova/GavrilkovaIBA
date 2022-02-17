@@ -1,31 +1,40 @@
-.grid_body{
+.table_body{
+    border-spacing:0px;
     font-family: sans-serif;
-    display: inline-grid;
-    grid-template-columns: 170px 130px 150px 140px;
-    grid-template-rows: repeat(5,1fr);
 }
 .odd{
     text-align: left;
-    border: 2px inset rgb(180, 176, 176);
-    padding: 10px;
-    background-color: rgb(180, 176, 176);
+    border: 2px inset rgb(211, 208, 208);
+    background-color: rgb(211, 208, 208);
     color: black;
 }
 .even{
     text-align: left;
     border: 2px inset white;
-    padding: 10px;
     background-color: white;
     color: black;
 }
-.grid_header{
+.table_header{
     text-align: left;
     border: 2px inset rgb(89, 202, 37);
-    padding: 10px;
+    padding: 2px;
     background-color: rgb(89, 202, 37);
     color: white;
 }
 img{
+    padding: 2px;
+    height: 17px;
     width: 25px;
-    height: 15px;
+}
+.col1{
+    width: 150px;
+}
+.col2{
+    width: 100px;
+}
+.col3{
+    width: 110px;
+}
+.col4{
+    width: 100px;
 }
