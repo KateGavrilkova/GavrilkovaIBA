@@ -1,4 +1,4 @@
-.body{
+body{
     background-color: rgb(223, 221, 221);
 }
 .header{
@@ -20,7 +20,7 @@ img{
     background-color: lightyellow;
     border: rgb(165, 164, 164) solid ;
     padding: 20px;
-    margin: 20px;  
+    margin: 20px 20px 80px 20px;  
     display: flex;
     flex: 1 1 auto;
 }

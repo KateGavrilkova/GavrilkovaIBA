@@ -4,21 +4,34 @@
 }
 .odd{
     text-align: left;
-    border: 2px inset rgb(211, 208, 208);
-    background-color: rgb(211, 208, 208);
+    border: 2px inset rgb(236,236,216);
+    background-color: rgb(236,236,216);
+    border-top-style: none;
+    border-bottom-style: none;
+    color: black;
+}
+.even1{
+    text-align: left;
+    border: 2px inset rgb(255,255,255);    
+    border-bottom-style: none;
+    border-top-style: inset;
+    border-top-color: rgb(82,181,6);
     color: black;
 }
 .even{
     text-align: left;
-    border: 2px inset white;
-    background-color: white;
+    border: 2px inset rgb(255,255,255);
+    background-color: rgb(255,255,255);
+    border-top-style: none;
+    border-bottom-style: none;
     color: black;
 }
 .table_header{
     text-align: left;
-    border: 2px inset rgb(89, 202, 37);
+    border: 2px inset rgb(82,181,6);
+    border-top-style: none;
     padding: 2px;
-    background-color: rgb(89, 202, 37);
+    background-color: rgb(82,181,6);
     color: white;
 }
 img{
@@ -27,13 +40,17 @@ img{
     width: 25px;
 }
 .col1{
+    border-left-style: none;
     width: 150px;
 }
 .col2{
     width: 100px;
 }
 .col3{
-    width: 110px;
+    width: 150px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
 }
 .col4{
     width: 100px;
