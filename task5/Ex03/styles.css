@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+
+}
+.gray_text{
+    color: black;
+}
+sup{
+    color: red;
+}
+.first_col{
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bolder;
+    width: 180px;
+}
+.third_col{
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bolder;
+    width: 40px;    
+}
+tr,td{
+    padding: 4px;
+    border: 1px solid black;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(209, 237, 225);
+}
+.country{
+    width: 250px;
+}
+.gender{
+    width: 80px;
+}

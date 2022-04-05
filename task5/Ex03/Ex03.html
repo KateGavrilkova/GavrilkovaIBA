@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Ex03</title>
+</head>
+
+<body>
+    <table>
+        <form>
+            <tr>
+                <td class="first_col">Last Name<sup>*</sup></td>
+                <td colspan="3">
+                    <input type="text" placeholder="Pupkin" size="57" class="gray_text" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">First Name<sup>*</sup></td>
+                <td colspan="3">
+                    <input type="text" placeholder="Vasili" size="57" class="gray_text" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">Adress</td>
+                <td colspan="3">
+                    <textarea rows=4 cols=45 placeholder="80 Rechitsky Avenue"></textarea>
+                </td>
+            <tr>
+                <td class="first_col">City</td>
+                <td>
+                    <input type="text" placeholder="Gomel" class="gray_text" size="40">
+                </td>
+                <td class="third_col">State</td>
+                <td>
+                    <input type="text" size="3">
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">Zip/Postal Code</td>
+                <td colspan="3">
+                    <input type="text" placeholder="246000" size="10" class="gray_text">
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">Country</td>
+                <td colspan="3">
+                    <select class="country">
+                        <option>Belarus
+                        <option>Ukraine
+                        <option>Russia
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">Phone (country code, area code, number)</td>
+                <td colspan="3">
+                    (+<input type="text" placeholder="375" size="3" class="gray_text">)
+                    <input type="text" placeholder="29" size="2" class="gray_text"> -
+                    <input type="text" placeholder="6749385" size="30" class="gray_text">
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">E-mail<sup>*</sup></td>
+                <td colspan="3">
+                    <input type="email" placeholder="vpupkin@gmail.com" size="57" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">Birth date</td>
+                <td colspan="3">
+                    Month <input type="text" placeholder="10" size="2"> 
+                    Day <input type="text" placeholder="17" size="2">
+                    Year(4 digit) <input type="text" placeholder="1982" size="5">
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">Gender</td>
+                <td colspan="3">
+                    <select class="gender">
+                        <option>Male
+                        <option>Female
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">Starting date</td>
+                <td colspan="3">
+                    <input type="radio" name="date" value="spring" checked>Spring 2015
+                    <input type="radio" name="date" value="summer">Summer 2015
+                </td>
+            </tr>
+            <tr>
+                <td class="first_col">Comments/Questions</td>
+                <td colspan="3">
+                    <textarea rows=4 cols=45 placeholder="Please send me more information about the lodging."></textarea>
+                </td>
+            </tr>
+        </form>
+        <tr>
+            <td colspan="4" class="footer">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear this form">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
