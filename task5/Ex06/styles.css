@@ -1,0 +1,22 @@
+.left_column{
+    background-color: yellow;
+    width: 200px;
+    height: 400px;
+    margin-right: 20px;
+    float: left;
+    padding-left: 20px;
+}
+.center_column{
+    background-color:green;
+    height: 360px;
+    padding: 20px;
+}
+.right_column{
+    background-color: pink;
+    width: 100px;
+    height: 400px;
+    float: right;
+}
+li{
+    padding-left: 20px; 
+}

@@ -1,0 +1,16 @@
+.left_column{
+    background-color: yellow;
+    width: 200px;
+    height: 400px;
+    margin-right: 20px;
+    float: left;
+    padding-left: 20px;
+}
+.right_column{
+    background-color: pink;
+    height: 360px;
+    padding: 20px;
+}
+li{
+    padding-left: 20px; 
+}
