@@ -1,12 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .header{
     background-color: orange;
     width: 100%;
     height: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.navigation{
+nav{
+    display: block;
     float: right;
     color: white;
+}
+a{
+    line-height: 40px;
     margin: 10px;
-    vertical-align: middle;
+    cursor: pointer;
 }

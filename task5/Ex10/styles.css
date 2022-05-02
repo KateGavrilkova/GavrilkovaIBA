@@ -1,0 +1,35 @@
+.right_column{
+    float: right;
+    width: 55%;
+}
+.dialog_window{
+    position:fixed;
+    right: 5px;
+    bottom: 5px;
+    width: 35%;
+    height: 30%;
+    border: 2px solid steelblue;
+    background-color: white;
+}
+.window_inset{
+    margin: 8px 10px;
+}
+textarea{
+    width: 98%;
+    height: 85px;
+    display: block;
+}
+button{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    text-align: center;
+    display: block;
+    color: white;
+    margin-top: 2px;
+    border: none;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
